@@ -13,6 +13,6 @@ class Controller extends BaseController
 
     public function __constructor()
     {
-        var_dump('dasdas'); die;
+        var_dump('dasdas'
     }
 }
