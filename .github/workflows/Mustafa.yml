@@ -50,7 +50,7 @@ jobs:
       - name: Install Composer dependencies
         run: composer install --no-progress --prefer-dist --optimize-autoloader
       - name: Copy Env File
-        run: cp .env.testing .env
+        run: cp .env.example .env
       - name: Migrate Test Database
         run: php artisan migrate --env=testing --seed --force
         env:
