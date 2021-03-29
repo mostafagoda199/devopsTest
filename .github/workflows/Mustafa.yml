@@ -1,1 +1,7 @@
-as
+name: Test & deploy
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
