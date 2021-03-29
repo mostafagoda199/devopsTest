@@ -1,5 +1,5 @@
+name: Welcome Contributor
 on: pull_request
-
 jobs:
   welcome:
     runs-on: ubuntu-latest
